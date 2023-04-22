@@ -1,0 +1,139 @@
+body{
+    font-family: 'Delicious Handrawn', cursive;
+font-family: 'Nunito Sans', sans-serif;
+margin: 0px;
+}
+#navbar{
+    display: flex;
+    justify-content:space-evenly;
+}
+.logo{
+    background-color:#9384D1 ;
+    height:140px;
+    width:120px;
+    text-align: center;
+    padding-top: 50px;
+}
+.logo img{
+    height:100px;
+    width:100px;
+}
+.menu{
+    color:white;
+    background-color: #9384D1;
+    border-radius: 10px;
+    display: flex;
+   
+}
+.menu-item{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.name{
+    color:white;
+    font-size:30px;
+    margin-bottom: 10px;
+    background-color: #9384D1;
+    padding-left: 50px;
+    padding-right:50px;
+    border-radius: 10px;
+}
+.collage{
+    color:white;
+    margin-bottom: 10px;
+    background-color: #9384D1;
+    padding-left:20px ;
+    padding-right:20px;
+    border-radius: 10px;;
+
+}
+.per{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lang{
+    height:41px;
+}
+.lang ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lang ul li{
+    color:white;
+    list-style: none;
+    background-color: #9384D1;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition-property:background-color;
+    transition-duration: 0.8s;
+
+}
+li:hover{
+   background-color: blue;
+
+}
+h1{
+    color:#9384D1;
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #9384D1;
+    height:300px;
+    width:500px;
+    padding:10px;
+    border-radius: 20px;
+    transition-property: height width;
+    transition-duration: 0.8s;
+}
+table thead{
+    font-size:30px;
+    color:#ffffff
+}
+td{
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    border-radius: 10px;
+}
+.coding{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.coding img{
+    height:100px;
+    width:100px;
+    transition-property: height width;
+    transition-duration: 0.8s;
+}
+.coding div{
+   
+    margin-left: 50px;
+    margin-right:50px; 
+}
+
+.schooling:hover{
+    height:350px;
+    width:550px;
+}
+a{
+    color:white;
+}
+a:hover{
+   background-color: rgb(149, 156, 237);
+   color:#f6f6f8
+}
+.coding img:hover{
+    height:150px;
+    width:150px;
+
+}
